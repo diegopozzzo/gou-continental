@@ -8,8 +8,8 @@ html,body{height:100%;background:#000;color:var(--paper);font-family:var(--f);ov
 @keyframes wipe{from{clip-path:inset(0 0 0 100%)}to{clip-path:inset(0 0 0 0)}}
 .s.on.wipeb{animation:wipeb 1s cubic-bezier(.7,0,.2,1)}
 @keyframes wipeb{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
-.bg,.duo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.duo{display:grid;grid-template-columns:1fr 1fr}.duo img{width:100%;height:100%;object-fit:cover;object-position:center 25%}
+.bg,.duo{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#0f0f0f}
+.duo{display:grid;grid-template-columns:1fr 1fr}.duo img{width:100%;height:100%;object-fit:contain;object-position:center;background:#0f0f0f}
 .kb{transform:scale(1.12);transition:transform 9s ease-out}.s.on .kb{transform:scale(1)}
 .shade{position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(0,0,0,.25),rgba(0,0,0,.75))}
 .shade.bottom{background:linear-gradient(to top,rgba(0,0,0,.9) 0%,rgba(0,0,0,.35) 45%,rgba(0,0,0,0) 75%)}
