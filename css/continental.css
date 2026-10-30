@@ -29,16 +29,16 @@
 .reveal .controls{color:var(--ink)}
 .logo-wall{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-content:center}
 .logo-wall div{background:#fff;height:110px;display:flex;align-items:center;justify-content:center;padding:14px;border:2px solid var(--ink);box-shadow:var(--sh)}
-.logo-wall img{max-height:80px;max-width:100%;object-fit:contain;margin:0;border:0;box-shadow:none;filter:grayscale(1)}
-.reveal img.ph,.reveal video.ph{border:2px solid var(--ink);box-shadow:var(--sh);filter:grayscale(1)}
+.logo-wall img{max-height:80px;max-width:100%;object-fit:contain;margin:0;border:0;box-shadow:none}
+.reveal img.ph,.reveal video.ph{border:2px solid var(--ink);box-shadow:var(--sh)}
 .apps-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 22px;margin-top:6px}
 .apps-grid figure{margin:0}
 .apps-grid video{width:100%;height:230px;object-fit:cover;background:#000;border:2px solid var(--ink);box-shadow:var(--sh)}
 .apps-grid figcaption{font-size:.5em;font-weight:700;margin-top:6px;color:var(--ink)}.apps-grid figcaption span{color:var(--mid);font-weight:400}
 .founders{display:flex;gap:60px;justify-content:center;margin:10px 0}
-.founders figure{margin:0;text-align:center}.founders img{width:300px;height:340px;object-fit:cover;object-position:top;border:2px solid #fff;box-shadow:4px 4px 0 #fff;filter:grayscale(1)}
+.founders figure{margin:0;text-align:center}.founders img{width:300px;height:340px;object-fit:cover;object-position:top;border:2px solid #fff;box-shadow:4px 4px 0 #fff}
 .founders figcaption{font-size:.6em;font-weight:700;margin-top:10px}
-.reveal img.veyon{max-height:430px;max-width:100%;border:2px solid #fff;box-shadow:4px 4px 0 #fff;filter:grayscale(1)}
+.reveal img.veyon{max-height:430px;max-width:100%;border:2px solid #fff;box-shadow:4px 4px 0 #fff}
 /* dark ink slides */
 .reveal .aura,.reveal .aura h1,.reveal .aura h2,.reveal .aura h3,.reveal .aura a,.reveal .aura .acc,.reveal .aura figcaption{color:#f8f8f8}
 .reveal .aura .mut,.reveal .aura .quote{color:var(--lite)}
